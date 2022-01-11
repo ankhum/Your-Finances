@@ -1,0 +1,92 @@
+@import url( 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body
+{
+    font-size: 1.125rem;
+    color: rgb(4, 4, 46);
+    margin: 0;
+    background-color: rgba(45, 80, 109, 0.795);
+    font-family: 'Poppins', 'Segoe UI';
+}
+/* typography */
+
+h1
+{
+    font: 2em sans-serif;
+    color: rgb(231, 231, 241);
+}
+h1 span
+{
+    color: #ff0157;
+}
+h2
+{
+    font-size: 1em;
+    font-style: oblique;
+    
+}
+/* layout */
+img
+{
+    max-width: 100%;
+}
+.container
+{
+    width: 98%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.column
+{
+    display: flex;
+    margin: 1em 0;
+    justify-content: space-between;
+    border: .15em solid rgba(233, 219, 26, 0.5);
+    padding: 1em;
+    background: rgb(248, 246, 250);
+}
+@media (max-width:600px) {
+    .column
+    {
+        flex-direction: column;
+    }
+}
+.col-1
+{
+    width: 22%;
+}
+.col-2
+{
+width: 27%;
+}
+.col-3
+{
+    width: 17%;
+}
+.col-4
+{
+    width: 27%;
+}
+@media (max-width:600px) {
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4
+    {
+        width: 100%;
+    }    
+}
+footer
+{
+    padding: 8px 20px;
+    text-align: center;
+    }
+footer p
+{
+    color: #333;
+}
+footer a
+{
+    color: #ff0157;
+    font-weight: 500;
+    text-decoration: none;
+}
